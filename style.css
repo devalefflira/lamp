@@ -1,0 +1,64 @@
+body {
+    background-color: #363636;
+    font-family: 'Staatliches', cursive;
+}
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tituloDaPagina {
+    border: 3px solid #000000;
+    width: 400px;
+}
+h1 {
+    text-align: center;
+    color: #C0C0C0;
+    margin-top: 30px;
+    font-size: 40px;
+}
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    box-shadow: 0 0 0 1px #808080; 
+    margin-top: 20px;
+    cursor: pointer;   
+}
+#turnOn {
+    border: 3px solid #006400;
+    margin-right: 5px;
+    background-color: #008000; 
+    color: #FFFFFF;   
+}
+#turnOff {
+    border: 3px solid #8B0000;
+    margin-left: 5px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+h2 {
+    margin-top: 10px;
+    color: #363636;
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    margin-top: -10px;
+    margin-left: 10px;
+    color: #1C1C1C;
+}
+.tabelaDeInstrucoes {
+    margin-top: 20px;
+    border: 1px solid #1C1C1C;
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+#lamp {
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
